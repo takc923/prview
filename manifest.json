@@ -1,0 +1,14 @@
+{
+    "name": "prview",
+    "manifest_version": 2,
+    "version": "0.0.1",
+    "description": "You can see pull requests at first sight.",
+    "browser_action": {
+        "default_popup": "prview.html"
+    },
+    "options_page": "options.html",
+    "permissions": ["<all_urls>", "storage"],
+    "web_accessible_resources": [
+        "favicon/*"
+    ]
+}
